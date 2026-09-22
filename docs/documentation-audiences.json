@@ -245,6 +245,10 @@
       "audience": "agent-runtime"
     },
     {
+      "path": ".agents/skills/spec-check/SKILL.md",
+      "audience": "agent-runtime"
+    },
+    {
       "path": ".agents/skills/stow/SKILL.md",
       "audience": "agent-runtime"
     },

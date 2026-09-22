@@ -189,6 +189,8 @@ Claude and grok use the slash form shown here; codex uses the same names with `$
 | `/bearings`        | Generate a concise four-section chat digest from bounded fleet state, including registered remote-home ledgers and measured follow-up for owned contributions; use `/bearings file` to also replace today's dated report in `data/`, and add `include PRs` for live GitHub enrichment |
 | `/updatefirstmate` | Guardedly update the running firstmate and its secondmates - fast-forward, or reconcile a redundant post-squash-merge divergence - then persist and restart every live mate successfully left on the target commit - including already-current homes - with an honest re-read nudge only when restart cannot be proven |
 | `/stow`            | Sweep the session for uncaptured durable knowledge, persist the open work records this session knows are unfiled or now wrong, curate tiered startup memory with decay and cold archival, enforce each home's budget or surface the required decision, cascade to registered second mates, and report what is safe to reset |
+| `/spec-check`      | Review a project's `SPECIFICATION.md` for missing required sections, internal consistency, conciseness, and end-to-end implementability, then report findings in chat with a closing readiness verdict for `/create-crews` - read-only, it never edits the specification |
+| `/create-crews`    | Decompose a project's `SPECIFICATION.md` into independent work packages, one per crew, each with its own extremely concise specification and an orchestrator specification with a mermaid workflow, every crew output pinned exactly enough to write an exact reconciliation anchor |
 
 Bearings invocation examples:
 
